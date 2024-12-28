@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in TypeScript type guards. The `greet` function is designed to handle string or null inputs.  However, it does not explicitly check for `undefined`, resulting in a runtime error. The solution shows how to improve type safety by adding a check for `undefined`.
